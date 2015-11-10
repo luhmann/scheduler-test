@@ -10,10 +10,10 @@
   "author": "Jan Florian Dietrich <jfd@daenen4.de> (http://www.daenen4.de/)",
   "license": "ISC",
   "devDependencies": {
+    "apimocker": "^0.4.5",
     "babel-core": "^5.8.33",
     "babel-loader": "^5.3.3",
     "html-webpack-plugin": "^1.6.2",
-    "nock": "^2.17.0",
     "q": "^1.4.1",
     "q-xhr": "^1.0.0",
     "webpack": "^1.12.3",
