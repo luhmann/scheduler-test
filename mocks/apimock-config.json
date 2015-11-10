@@ -1,0 +1,31 @@
+{
+  "mockDirectory": "./responses",
+  "quiet": false,
+  "port": "7878",
+  "latency": 50,
+  "logRequestHeaders": false,
+  "webServices": {
+    "user": {
+      "mockFile": "user.json",
+      "latency": 1000,
+      "verbs": ["get"]
+    },
+    "message": {
+      "mockFile": "message.json",
+      "latency": 100,
+      "verbs": ["get"]
+    },
+    "attachment": {
+      "mockFile": "attachment.json",
+      "latency": 3000,
+      "verbs": ["get"]
+    },
+    "error": {
+      "latency": 8000,
+      "responses": {
+        "get": { "httpStatus": 503, "mockFile": "error.json"}
+      },
+      "verbs": ["get"]
+    }
+  }
+}
