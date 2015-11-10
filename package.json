@@ -4,7 +4,8 @@
   "description": "",
   "main": "promise-test.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "mocks": "./node_modules/.bin/apimocker -c ./mocks/apimock-config.json"
   },
   "author": "Jan Florian Dietrich <jfd@daenen4.de> (http://www.daenen4.de/)",
   "license": "ISC",
